@@ -6,6 +6,7 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import org.junit.Test;
 
 import java.net.InetSocketAddress;
 import java.nio.charset.Charset;
@@ -47,4 +48,11 @@ public class ConnectExample {
         });
 
     }
+
+    @Test
+    public void test(){
+        connect();
+    }
+
+
 }
